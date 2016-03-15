@@ -1,0 +1,9 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] Emulator config file set to C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] DiagnosticsStoreRootPath set to: C:\Users\himasing\AppData\Local\dftmp\Resources\8bb964bc-7356-4fe8-9111-b1b1b7a3c032
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] Loading config file: C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] Emulator config file set to C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCloudService\csx\Debug\roles\ContosoAdsWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [3/11/2016 10:47:03 AM] Stopping the running plugin, if any

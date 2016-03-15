@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ContosoAdsCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="ContosoAdsWeb">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=healthyspoons1storage;AccountKey=P2Xfafaw4xYmUMdu2yo46KAU3p5vdjKGlyI3jJ4N/hjOAppCsYySVqti4scpj+1ZzshZhRnwh/P5iF3Dld/sGg==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=healthyspoons1storage;AccountKey=P2Xfafaw4xYmUMdu2yo46KAU3p5vdjKGlyI3jJ4N/hjOAppCsYySVqti4scpj+1ZzshZhRnwh/P5iF3Dld/sGg==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="himasing" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEHS9M9RTVzObRkmlPxU6rJUwDQYJKoZIhvcNAQEBBQAEggEAqn5O6qBXLWj8qtNQdVe4FgCjejFJQL1pagmDub4g+ahzh0jfC2zJEez1n+rheZPIHnLerPh4+RvlufoIBOPCL+OOtjiTK7VznLZOR8tE8AsyFa3U3RTL7PKAQYSqsBVQw7ZyIyvf5AYJSJHExzJUVmzpX5Rr7KDYaZcch1dzqVFDANwWZscgJR9ohMOKyRoAcfVQhcnYJsq4/iKnUjiG2NVkHQsBMBEa8ZB1Rer5k4QtVkfKPiKlLTbFMCxdtvqZn3ywQTX5Adq0Cqi/Mvl77tCwVH8Ea7Xe8AN+lq0PKWh37Fh96yMxF9CMFs7asnRCPLHNuMxV+G2a3NSDuj3ACDAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECNx4OvEInapSgBADiTo6B3unPkfJvMX+6VVS" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-03-11T23:59:59.0000000-08:00" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="253E62DE52C3B53995BF9AD1E583D80778BA4611" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+  <Role name="ContosoAdsWorker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=healthyspoons1storage;AccountKey=P2Xfafaw4xYmUMdu2yo46KAU3p5vdjKGlyI3jJ4N/hjOAppCsYySVqti4scpj+1ZzshZhRnwh/P5iF3Dld/sGg==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=healthyspoons1storage;AccountKey=P2Xfafaw4xYmUMdu2yo46KAU3p5vdjKGlyI3jJ4N/hjOAppCsYySVqti4scpj+1ZzshZhRnwh/P5iF3Dld/sGg==" />
+      <Setting name="ContosoAdsDbConnectionString" value="Server=tcp:obfxpyl8ig.database.windows.net,1433;Database=healthyspoons1;User ID=testme@obfxpyl8ig;Password=test@123;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="himasing" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEHS9M9RTVzObRkmlPxU6rJUwDQYJKoZIhvcNAQEBBQAEggEAqn5O6qBXLWj8qtNQdVe4FgCjejFJQL1pagmDub4g+ahzh0jfC2zJEez1n+rheZPIHnLerPh4+RvlufoIBOPCL+OOtjiTK7VznLZOR8tE8AsyFa3U3RTL7PKAQYSqsBVQw7ZyIyvf5AYJSJHExzJUVmzpX5Rr7KDYaZcch1dzqVFDANwWZscgJR9ohMOKyRoAcfVQhcnYJsq4/iKnUjiG2NVkHQsBMBEa8ZB1Rer5k4QtVkfKPiKlLTbFMCxdtvqZn3ywQTX5Adq0Cqi/Mvl77tCwVH8Ea7Xe8AN+lq0PKWh37Fh96yMxF9CMFs7asnRCPLHNuMxV+G2a3NSDuj3ACDAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECNx4OvEInapSgBADiTo6B3unPkfJvMX+6VVS" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-03-11T23:59:59.0000000-08:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="253E62DE52C3B53995BF9AD1E583D80778BA4611" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

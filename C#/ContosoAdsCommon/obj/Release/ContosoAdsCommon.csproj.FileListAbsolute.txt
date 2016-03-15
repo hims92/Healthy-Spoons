@@ -1,0 +1,9 @@
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\bin\Release\ContosoAdsCommon.dll.config
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\bin\Release\ContosoAdsCommon.dll
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\bin\Release\ContosoAdsCommon.pdb
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\bin\Release\EntityFramework.dll
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\bin\Release\EntityFramework.xml
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\obj\Release\ContosoAdsCommon.dll
+C:\Users\himasing\Downloads\Simple Azure Cloud Service with Web Role and Worker Role-New\C#\ContosoAdsCommon\obj\Release\ContosoAdsCommon.pdb
